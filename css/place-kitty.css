@@ -17,8 +17,8 @@ img[alt= "Kitty 2"] {
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
- img[alt = "Kitty 3"]
-/*__write_selector_here__*/ {
+basket{ img[alt = "Kitty 3"] 
+ {
   position: absolute;
   z-index: 5;
   top: 291px;
